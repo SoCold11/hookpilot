@@ -68,7 +68,7 @@ This product focuses on:
 - Used rule-based logic instead of real-time performance data
 - Limited inputs to reduce user friction and improve usability
 
-## Product Roadmap
+## Product Roadmap & Vision
 
 **V1 (Current – MVP)**
 - Rule-based creative recommendation engine
