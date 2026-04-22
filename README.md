@@ -16,6 +16,13 @@ Teams consistently face challenges in:
 
 Despite significant investment in media, creative development remains manual, inconsistent, and difficult to scale.
 
+## Early Observations
+
+Initial feedback suggests that users:
+- Struggle to decide what type of creative to produce before launching campaigns
+- Rely heavily on guesswork or competitor inspiration
+- Want clearer guidance on platform-specific best practices
+
 ## The Solution
 
 HookPilot streamlines and automates the ideation process by combining:
@@ -74,6 +81,7 @@ This product focuses on:
 - Rule-based creative recommendation engine
 - Structured input-to-output experience
 - Platform-specific guidance (TikTok, YouTube, Pinterest)
+- Working live product
 
 Goal: Validate whether users find pre-launch creative guidance useful.
 
@@ -103,6 +111,23 @@ Goal: Move from static guidance → intelligent, feedback-driven optimization.
 - Automated creative optimization suggestions
 
 Goal: Close the loop between creative strategy and actual campaign performance.
+
+
+## AI Integration (Planned)
+
+HookPilot is designed to evolve into an AI-powered creative recommendation engine.
+
+The next iteration (V2) will introduce:
+- Dynamic recommendations using OpenAI API
+- Context-aware creative strategy generation
+- More personalized outputs based on campaign inputs
+
+Architecture approach:
+- Frontend (React) will send campaign inputs to a backend endpoint
+- Backend will securely call the OpenAI API
+- Responses will be structured and returned to the UI
+
+Note: API keys will be stored securely server-side and not exposed to the client.
 
 
 ## Example Use Case
@@ -153,14 +178,19 @@ Future Enhancements:
 
 Built by Dorian C.
 
-USC Marshall MBA and Performance Marketing & Product-Oriented Strategist.
+USC Marshall MBA and Product & Growth Strategist with a background in performance marketing and ad technology.
 
 Experience includes:
-- Leading $40M+ in programmatic media spend
-- Improving campaign efficiency by approximately 50% year-over-year
-- Building scalable systems across ad tech, creative, and performance
+- Leading $40M+ in programmatic media investment across full-funnel campaigns
+- Driving ~50% improvements in campaign efficiency through data-driven optimization and testing frameworks
+- Building scalable campaign structures, measurement systems, and cross-functional workflows across creative, analytics, and engineering teams
 
-HookPilot reflects real-world challenges in performance marketing, translated into a product solution through structured thinking and applied AI.
+HookPilot is an extension of this experience — translating real-world challenges in ad creative decision-making into a productized solution.
+
+The goal is to bridge the gap between campaign strategy, user empathy & feedback, and product thinking by:
+- Simplifying complex marketing decisions into structured outputs
+- Designing for user needs prior to campaign launch
+- Iterating toward more intelligent, AI-powered recommendations
 
 ## Purpose
 
