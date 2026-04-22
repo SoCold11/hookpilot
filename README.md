@@ -117,12 +117,27 @@ Output:
 - “I tried the ‘lazy workout’ trend for 7 days. Here’s what happened.”
 - “POV: You finally found a workout that fits your schedule.”
 
-## Live Product
+## Live Demo
 
 Try HookPilot here:
 https://hook-pilot--dcloyd11.replit.app
 
 No login required. Enter campaign details to generate creative recommendations.
+
+
+## Preview
+
+A lightweight AdTech product that helps marketers and creators decide what kind of ad creative to build before launching a campaign.  
+Users input campaign details and receive platform-specific creative recommendations, including format, hooks, and testing strategy.
+
+### Input Experience
+
+![HookPilot Input](./assets/hookpilot-app-preview-v1.jpeg)
+
+### Recommendation Output
+
+![HookPilot Output](./assets/hookpilot-app-output-v1.jpeg)
+
 
 ## Tech Stack
 
