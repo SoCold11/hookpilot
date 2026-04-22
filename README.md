@@ -53,32 +53,57 @@ Users input campaign details, and HookPilot generates multiple high-quality hook
 
 ## Product Thinking
 
-HookPilot is built on a core insight:
+HookPilot was designed to solve a gap in how marketers approach creative strategy.
 
-Creative is the most influential lever in paid media performance.
+Most tools optimize campaigns after launch, but very few help users decide what creative to produce before spending budget.
 
-While media buying, bidding, and targeting have become increasingly automated, creative development remains a bottleneck.
+This product focuses on:
+- Pre-launch decision support
+- Platform-specific creative strategy
+- Simplifying complex ad decisions into actionable recommendations
 
-HookPilot addresses this by making creative generation more structured, scalable, and aligned with performance outcomes.
+## Tradeoffs
+
+- Prioritized speed to MVP over deep AI integration
+- Used rule-based logic instead of real-time performance data
+- Limited inputs to reduce user friction and improve usability
 
 ## Product Roadmap
 
-**V1 (Current)**
-- Core hook generation engine
-- Structured prompt logic
-- Basic input-to-output interface
+**V1 (Current – MVP)**
+- Rule-based creative recommendation engine
+- Structured input-to-output experience
+- Platform-specific guidance (TikTok, YouTube, Pinterest)
 
-**V2 (Next Iteration)**
-- Enhanced prompt optimization
-- Saved hook library
-- Performance tagging system
-- Batch hook generation
+Goal: Validate whether users find pre-launch creative guidance useful.
 
-**V3 (Future Vision)**
-- Direct integrations with ad platforms (TikTok Ads, Google Ads)
-- Performance feedback loop
-- Automated optimization based on results
-- Expanded creative strategy capabilities
+
+
+**V2 (Next Iteration – AI Enhancement)**
+- AI-powered recommendations using OpenAI API
+- Dynamic hook and messaging generation
+- More personalized outputs based on user inputs
+
+Goal: Improve recommendation quality and make outputs more actionable and tailored.
+
+
+
+**V3 (Future Vision – Performance Layer)**
+- Creative scoring system
+- Ability to input or upload ad concepts for feedback
+- Performance-informed recommendations based on trends
+
+Goal: Move from static guidance → intelligent, feedback-driven optimization.
+
+
+
+**V4 (Long-Term Vision – Platform Integration)**
+- Integration with ad platforms (TikTok Ads, Google Ads)
+- Real-time performance feedback loops
+- Automated creative optimization suggestions
+
+Goal: Close the loop between creative strategy and actual campaign performance.
+
 
 ## Example Use Case
 
@@ -94,14 +119,20 @@ Output:
 
 ## Live Product
 
+Try HookPilot here:
 https://hook-pilot--dcloyd11.replit.app
+
+No login required. Enter campaign details to generate creative recommendations.
 
 ## Tech Stack
 
-- Frontend: To be defined
-- Backend: To be defined
-- AI: Prompt-engineered LLM workflows
-- Hosting: Replit or Vercel
+- Frontend: React (JavaScript, JSX)
+- Styling: Tailwind CSS + component-based UI
+- Hosting & Deployment: Replit
+- Version Control: GitHub
+
+Future Enhancements:
+- AI Integration: OpenAI API (planned for V2)
 
 ## About
 
