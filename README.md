@@ -167,7 +167,7 @@ HookPilot reflects real-world challenges in performance marketing, translated in
 This project was built to:
 - Solve a real, recurring problem in performance marketing
 - Demonstrate end-to-end product thinking
-- Explore the intersection of marketing, product, and AI
+- Explore the intersection of product, marketing, and AI
 
 ## 📬 Contact
 
